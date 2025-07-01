@@ -16,7 +16,6 @@ int main(){
             }
             i++;
         } while (i <= (num/2));
-        
     }
     if (isPrime)
         printf("Prime");
