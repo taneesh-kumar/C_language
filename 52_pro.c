@@ -2,11 +2,11 @@
 
 int main(){
     char ch;
-    FILE *ptr = fopen("files_testing.exe", "a");
-    while (1){
+    FILE *ptr = fopen("demo.txt", "r");
+    while (1){//infinite loop
         ch = fgetc(ptr);
-        printf("%c", ptr);
-        if (ch = EOF){
+        printf("%c", ch);
+        if (ch == EOF){
             break;
         }
     }
